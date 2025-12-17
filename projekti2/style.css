@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: hsl(0, 0%, 12%);
+    width: 350px;
+    border-radius: 10px;
+    padding: 50px;
+    font-family: "fadil";
+}
+.main .jessica{
+    text-align: center;
+}
+.main .jessica img{
+    border-radius: 100px;
+    width: 100px;
+}
+.main .jessica .a{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 0;
+}
+.main .jessica .b{
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    font-weight: 600;
+}
+.main .jessica .c{
+    color: lightgray;
+    font-size: 16px;
+
+}
+.butonat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.butonat button{
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    height: 50px;
+    background-color: hsl(0, 0%, 20%);
+    border: 0;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 14px;
+}
+.butonat button:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+
+}
+
+@font-face {
+    font-family: fadil;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
