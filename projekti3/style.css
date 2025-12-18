@@ -8,10 +8,15 @@ body{
 .main{
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 1000px;
+    align-items: stretch;
+    max-width: 920px;
+    width: 90%;
     overflow: hidden;
     border-radius: 10px;
+    margin: 0 auto;
+}
+img{
+    margin-bottom: 20px;
 }
 .sedans{
     background-color: hsl(31, 77%, 52%);
@@ -37,21 +42,29 @@ button{
 h1{
     color: hsl(0, 0%, 95%);
     font-family: "fadil1";
-    font-weight: 100px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    font-size: 40px;
 }
 p{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: "fadil2";
-    font-weight: 400px;
+    font-weight: 400;
+    line-height: 30px;
 }
 .sedans button{
     color: hsl(31, 77%, 52%);
+    margin-top: 50px;
+
 }
 .suvs button{
     color: hsl(184, 100%, 22%);
+    margin-top: 50px;
+
 }
 .luxury button{
     color: hsl(179, 100%, 13%);
+    margin-top: 50px;
 }
 .sedans button:hover{
     cursor: pointer;
@@ -79,4 +92,15 @@ p{
 @font-face {
     font-family: "fadil2";
     src: url(fonts--/Lexend_Deca/static/LexendDeca-Regular.ttf);
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        padding: 50px 20px;
+    }
+    .main{
+        flex-direction: column;
+        width: 100%;
+        max-width: 330px;
+    }
 }
