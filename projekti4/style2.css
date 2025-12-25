@@ -5,15 +5,12 @@ body{
     width: 300px;
     height: 600px;
     background-color: hsl(270, 20%, 96%);
-    border-radius: 40px;
+    border-radius: 35px;
     border: 10px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     overflow: hidden;
 }
 .noch{
-    width: 150px;
+    width: 55%;
     height: 25px;
     background-color: white;
     border-radius: 0 0 15px 15px;
@@ -26,4 +23,126 @@ body{
     height: 80px;
     background-color: hsl(264, 100%, 61%);
     border-radius: 10px;
+}
+.msg1{
+    margin-left: 10px;
+    width: 55%;
+
+}
+.msg1 .m11{
+    color: hsl(276, 55%, 52%);
+    background-color: rgb(206, 203, 203);
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0;
+    font-family: "fadil";
+
+}
+.msg1 .m12{
+    color: hsl(276, 55%, 52%);
+    background-color: rgb(206, 203, 203);
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0;
+    font-family: "fadil";
+
+}
+
+.mmm1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+.msg2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 55%;
+
+}
+.msg2 img{
+    width: 50px;
+    border-radius: 10px;
+}
+.msg2 .img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.msg2 .m21{
+    color: hsl(270, 7%, 64%);
+    background-color: white;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0 10px;
+    font-family: "fadil";
+
+}
+.msg2 .m22{
+    color: hsl(270, 7%, 64%);
+    background-color: white;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0 10px;
+    font-family: "fadil";
+    margin-top: 0;
+
+}
+
+.msg3{
+    margin-left: 10px;
+}
+.msg3 .m31{
+    color: hsl(276, 55%, 52%);
+    background-color: rgb(206, 203, 203);
+    width: 48%;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0;
+    font-family: "fadil";
+
+}
+
+.input1{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(264, 100%, 61%);
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border-radius: 10px 10px 10px 0;
+    font-family: "fadil";
+    color: white;
+}
+.input1 div{
+    display: flex;
+    align-items: center;
+}
+.input1 label{
+    font-size: 10px;
+}
+.input1 p{
+    font-weight: bold;
+}
+.input1 input[type="radio"] {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main .input{
+    background-color: black;
+}
+
+@font-face {
+    font-family: "fadil";
+    src: url(./--fonts/Rubik/static/Rubik-Regular.ttf);
 }
