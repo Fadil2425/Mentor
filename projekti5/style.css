@@ -13,12 +13,14 @@ body{
 
 .all{
     background-color: white;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    width: 600px;
+    height: 400px;
     overflow: hidden;
+
 }
 .num1{
     width: 50%;
@@ -32,11 +34,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.num2{
-    width: 50%;
-    background-color: pink;
-    height: 100%;
+    padding: 0 20px;
+
 }
 
 .p1{
@@ -45,21 +44,114 @@ body{
 }
 .circ{
     background-color: pink;
-    text-align: center;
-    width: 40%;
-    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 35%;
     border-radius: 100%;
     padding: 10px;
+    background: linear-gradient(
+        hsla(256, 72%, 46%, 1),
+        hsla(241, 72%, 46%, 0)
+    );
 }
 .circ .a1{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     color: white;
     line-height: 0;
+    margin-bottom: 30px;
 
 }
 .circ .a2{
     color: hsl(241, 100%, 89%);
     line-height: 0;
+    font-size: 15px;
+}
+.p2{
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 500;
     font-size: 20px;
+}
+.p3{
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-size: 16px;
+}
+
+
+.num2{
+    width: 50%;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.red{
+    color: hsl(0, 100%, 67%);
+    margin-left: 10px;
+    font-family: "fadil";
+}
+.yellow{
+    color: hsl(39, 100%, 56%);
+    margin-left: 10px;
+    font-family: "fadil";
+}
+.green{
+    color: hsl(166, 100%, 37%);
+    margin-left: 10px;
+    font-family: "fadil";
+}
+.blue{
+    color: hsl(234, 85%, 45%);
+    margin-left: 10px;
+    font-family: "fadil";
+}
+
+.s1, .s2, .s3, .s4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+.s1{
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+.s2{
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+.s3{
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+.s4{
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+.s{
+    line-height: 0;
+}
+
+button{
+    height: 10%;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: 0;
+    border-radius: 50px;
+    margin: 10px 0;
+    font-family: "fadil";
+    cursor: pointer;
+
 }
